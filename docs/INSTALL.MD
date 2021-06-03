@@ -140,3 +140,7 @@ To install it and initialize it run the following commands:
 **Congratulations! You have successfully installed and set up ROS.** 
 
 ## **Option 3: VM (Virtual Machine)**
+
+### **Note**: The steps are taken from the following websites:
+- [ROS Documentation](http://wiki.ros.org/noetic/Installation/Ubuntu)
+- [Blog by Jack Kawell](https://jack-kawell.com/2020/06/12/ros-wsl2/)
