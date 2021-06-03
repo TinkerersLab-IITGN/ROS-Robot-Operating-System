@@ -13,7 +13,7 @@ We will be working on a Linux based environment for ROS. If you don’t have any
 ## **Option 2: WSL (Windows Subsystem for Linux) - (Recommended)**
 (For Windows 10)
 
-First we need to install WSL. Follow the below given steps to install WSL2 on Windows 10. (The complete documentation is also given here: [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10))
+First we need to install WSL. Follow the below given steps to install WSL2 on Windows 10. (The complete documentation for WSL installation is also given here: [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10))
 
 ### **Step 1: Enable the Windows Subsystem for Linux**
 
@@ -89,6 +89,7 @@ Now, run the following commands to install x11-apps:
 Now, we are ready to install ROS.
 
 ### **Step 7: Install ROS**
+(The complete documentation for ROS installation is also given here: [ROS](http://wiki.ros.org/noetic/Installation/Ubuntu))
 
 Run the following two commands to get updated packages:
 
@@ -142,5 +143,6 @@ To install it and initialize it run the following commands:
 ## **Option 3: VM (Virtual Machine)**
 
 ### **Note**: The steps are taken from the following websites:
+- [WSL Installation](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 - [ROS Documentation](http://wiki.ros.org/noetic/Installation/Ubuntu)
 - [Blog by Jack Kawell](https://jack-kawell.com/2020/06/12/ros-wsl2/)
