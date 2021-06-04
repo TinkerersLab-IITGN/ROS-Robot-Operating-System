@@ -72,6 +72,7 @@ $ sudo apt upgrade
 > ```
 
 You can install 3rd party drivers like NVIDIA drivers by following instructions [here](https://linuxize.com/post/how-to-nvidia-drivers-on-ubuntu-20-04/) to get the best performance from your hardware.
+
 ---
 
 Now, we are ready to install ROS.
