@@ -45,8 +45,6 @@ After the installation gets completed, you will be able to see the “Ubuntu 20.
 
 The first time you launch a newly installed Linux distribution, a console window will open and you'll be asked to wait for a minute or two for files to decompress and be stored on your PC. All future launches should take less than a second. Then it will ask you to create a user account and password for the Linux distribution.
 
-**Congratulations! You have successfully installed and set up a Linux distribution.**
-
 Now, we will set up GUI.
 
 ## **Step 6: Set up X-server application VcXsrv**
@@ -71,10 +69,14 @@ Now source the edited .bashrc file by running the following command:
 
 `source ~/.bashrc`
 
+> Note: When you change your network connection, then the IP address will also change. So, you will need to perform these two steps again to configure VcXsrv.
+
 Now, run the following commands to install x11-apps:
 
 `sudo apt update` <br>
 `sudo apt install x11-apps`
+
+**Congratulations! You have successfully installed and set up a Linux distribution and X-server application.**
 
 Now, we are ready to install ROS.
 
