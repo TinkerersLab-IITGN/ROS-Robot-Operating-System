@@ -76,7 +76,7 @@ Now, run the following commands to install x11-apps:
 `sudo apt update` <br>
 `sudo apt install x11-apps`
 
-**Congratulations! You have successfully installed and set up a Linux distribution and X-server application.**
+**You have successfully installed and set up a Linux distribution and X-server application.**
 
 Now, we are ready to install ROS.
 
