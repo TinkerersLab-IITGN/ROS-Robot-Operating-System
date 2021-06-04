@@ -1,3 +1,5 @@
+![image](../images/TL_Header.png)
+
 # **VM (Virtual Machine)**
 
 Now, we are ready to install ROS.

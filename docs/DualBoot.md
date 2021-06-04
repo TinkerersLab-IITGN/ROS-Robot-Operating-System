@@ -1,3 +1,5 @@
+![image](../images/TL_Header.png)
+
 # **Dual Boot**
 
 Now, we are ready to install ROS.
