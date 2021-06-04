@@ -4,7 +4,7 @@
 
 Here, we setup Ubuntu 20.04 LTS on your system as native Operating System in parallel with Windows OS. We assume you have Windows 10 OS preinstalled on your PC. This method is recommended for confident users as mistakes in following the instructions might result in loss of data on hard drives. The installation procedure is inspired from [It's FOSS](https://itsfoss.com/) website - [How to Install Ubuntu Alongside Windows 10](https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/). In this procedure you need a blank USB thumb drive (minimum 4GB space), Ubuntu 20.04 LTS .iso image from the official website, and a tool to create a bootable thumb drive like or [balenaEtcher](https://www.balena.io/etcher/) or [Rufus](https://rufus.ie/en_US/).
 
-## Step 1 - Paritioning Disk for Ubuntu
+## **Step 1: Paritioning Disk for Ubuntu**
 
 You can create partitions in a continuous segment of storage device like hard disk or thumb drives such that the OS treats them as separate drives. (You might have observed different letter drives C:\, D:\, E:\ etc. for a single hard disk in some computers) We want to create an unlabelled partition from available disk space. 
 
@@ -17,7 +17,7 @@ If you choose to install Ubuntu on your SSD (you can get boot up time less than 
 
 (To uninstall the Ubuntu OS you could simply format this partition and merge with another partition that is active in windows)
 
-## Step 2 - 
+## **Step 2:** 
 
 Now, we are ready to install ROS.
 
