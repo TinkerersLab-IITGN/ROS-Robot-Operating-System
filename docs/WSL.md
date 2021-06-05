@@ -39,7 +39,9 @@ Run the update package downloaded in the previous step. (Double-click to run - y
 
 Again open PowerShell and run this command to set WSL 2 as the default version when installing a new Linux distribution:
 
-`wsl --set-default-version 2`
+```
+wsl --set-default-version 2
+```
 
 ## **Step 5: Install Ubuntu 20.04 LTS Linux distribution**
 
