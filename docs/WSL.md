@@ -11,7 +11,9 @@ You must first enable the "Windows Subsystem for Linux" optional feature before 
 
 Open Powershell as administrator and run (i.e. in Start menu search for “cmd” and you will be able to see option of “Command Prompt”, Right click on it and select “Run as administrator” and run the following command)
 
-`dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+```
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
 
 Now, we will install WSL 2.
 
@@ -21,7 +23,9 @@ Before installing WSL 2, you must enable the Virtual Machine Platform optional f
 
 Run the following command in the same Powershell opened in the 1st step:
 
-`dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+```
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
 
 Restart your machine to complete the WSL install and update to WSL 2.
 
@@ -63,18 +67,26 @@ Now, we need to set the `DISPLAY` environment variable that tells WSL 2 where to
 
 After getting the IP address open the Linux distribution that you installed (Search "Ubuntu 20.04 LTS" in Start Menu and click on it). Then run this command and replace {your_ip_address} with your IP address:
 
-`echo 'export DISPLAY={your_ip_address}:0.0' >> ~/.bashrc`
+```
+echo 'export DISPLAY={your_ip_address}:0.0' >> ~/.bashrc
+```
 
 Now source the edited .bashrc file by running the following command:
 
-`source ~/.bashrc`
+```
+source ~/.bashrc
+```
 
 > Note: When you change your network connection, then the IP address will also change. So, you will need to perform these two steps again to configure VcXsrv.
 
 Now, run the following commands to install x11-apps:
 
-`sudo apt update` <br>
-`sudo apt install x11-apps`
+```
+sudo apt update
+``` 
+```
+sudo apt install x11-apps
+```
 
 **You have successfully installed and set up a Linux distribution and X-server application.**
 

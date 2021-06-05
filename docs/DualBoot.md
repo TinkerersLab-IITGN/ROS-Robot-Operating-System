@@ -62,13 +62,17 @@ After completing either of the above set of steps, your system will restart and 
 > For connecting to IITGN-SSO, you can simply check the "No CA certificate required" field and enter your credentials. Make sure you have selected "peap" authentication method.
 10. Open a terminal and run the following commands
 ```
-$ sudo apt update
-$ sudo apt upgrade
+sudo apt update
+```
+```
+sudo apt upgrade
 ```
 > Often in dual boot setups you might find a mismatch of time in the two OS. This is because the two OS treat the system time clock as either local time or the RTC time by default. A quickfix to this problem is given [here](https://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot). You need to open a terminal and enter the following commands -
 > ```
-> $ timedatectl set-local-rtc 1
-> $ sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+> timedatectl set-local-rtc 1
+> ```
+> ```
+> sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
 > ```
 
 You can install 3rd party drivers like NVIDIA drivers by following instructions [here](https://linuxize.com/post/how-to-nvidia-drivers-on-ubuntu-20-04/) to get the best performance from your hardware.
