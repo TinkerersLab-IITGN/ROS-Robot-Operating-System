@@ -35,5 +35,5 @@ To make sure your workspace is properly overlayed by the setup script, make sure
 ```
 echo $ROS_PACKAGE_PATH
 ```
-`Output: /home/youruser/catkin_ws/src:/opt/ros/kinetic/share`
+`Output: /home/youruser/catkin_ws/src:/opt/ros/noetic/share`
 
