@@ -3,7 +3,15 @@
 # **WSL (Windows Subsystem for Linux) - (Recommended)**
 (For Windows 10)
 
-First we need to install WSL. Follow the below given steps to install WSL2 on Windows 10. (The complete documentation for WSL installation is also given here: [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10))
+## **Download**
+The WSL installation requires following files to be downloaded beforehand: <br>
+1. [WSL2 Linux kernel update package for x64 machines](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+2. [Ubuntu 20.04 LTS](https://www.microsoft.com/en-in/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1#activetab=pivot:overviewtab)
+3. [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
+
+## **Install**
+
+First we need to install WSL. Follow the below given steps to install WSL2 on Windows 10.
 
 ## **Step 1: Enable the Windows Subsystem for Linux**
 
@@ -31,9 +39,11 @@ Restart your machine to complete the WSL install and update to WSL 2.
 
 ## **Step 3: Download the Linux kernel update package**
 
-Download the latest package from here: [WSL2 Linux kernel update package for x64 machines](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+> **If you haven't downloaded the WSL2 Linux kernel update package mentioned 1st in the Download section**: Download it from here: [WSL2 Linux kernel update package for x64 machines](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi).
 
-Run the update package downloaded in the previous step. (Double-click to run - you will be prompted for elevated permissions, select ‘yes’ to approve this installation.)
+Run the WSL2 Linux kernel update package mentioned 1st in the **Download** section. 
+
+(Double-click to run - you will be prompted for elevated permissions, select ‘yes’ to approve this installation.)
 
 ## **Step 4: Set WSL 2 as your default version**
 
@@ -45,7 +55,7 @@ wsl --set-default-version 2
 
 ## **Step 5: Install Ubuntu 20.04 LTS Linux distribution**
 
-Open the [Microsoft Store](https://aka.ms/wslstore) and search for “Ubuntu 20.04 LTS” or you can also use the direct link to [Ubuntu 20.04 LTS](https://www.microsoft.com/en-in/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1#activetab=pivot:overviewtab). In the Microsoft Store in Ubuntu 20.04 LTS page select “GET” and then “Install”.
+> **If you haven't downloaded Ubuntu 20.04 mentioned 2nd in the Download section**: Open the [Microsoft Store](https://aka.ms/wslstore) and search for “Ubuntu 20.04 LTS” or you can also use the direct link to [Ubuntu 20.04 LTS](https://www.microsoft.com/en-in/p/ubuntu-2004-lts/9n6svws3rx71?rtc=1#activetab=pivot:overviewtab). In the Microsoft Store in Ubuntu 20.04 LTS page select “GET” and then “Install”.
 
 After the installation gets completed, you will be able to see the “Ubuntu 20.04 LTS” option in the Start Menu. Open it.
 
@@ -55,9 +65,9 @@ Now, we will set up GUI.
 
 ## **Step 6: Set up X-server application VcXsrv**
 
-Download the setup of X-server application VcXsrv from [here](https://sourceforge.net/projects/vcxsrv/).
+> **If you haven't downloaded Ubuntu 20.04 mentioned 3rd in the Download section**: Download the setup of X-server application VcXsrv from [here](https://sourceforge.net/projects/vcxsrv/).
 
-Now run the downloaded file (Double click on it). After it gets installed you will be able to see XLaunch icon in the Start Menu. Click on it. 
+Now run the downloaded VcXsrv file mentioned 3rd in the **Download** section (Double click on it). After it gets installed you will be able to see XLaunch icon in the Start Menu. Click on it. 
 
 Choose defaults for display settings and how to start a client. When you arrive at the screen of Extra Settings as shown in the below image, uncheck "Native opengl" option and check "Disable access control" option. (i.e. Click next until you arrive at the "Extra Settings" screen and set it as below shown image)
 
@@ -90,8 +100,10 @@ sudo apt update
 sudo apt install x11-apps
 ```
 
+(The complete documentation for WSL installation is also given here: [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10))
+
 **You have successfully installed and set up a Linux distribution and X-server application.**
 
 Now, we are ready to install ROS.
 
-Go through the [ROS Installation](https://github.com/GauravViramgami/ROS-Workshop-TL/blob/main/docs/ROS.md) doc to install ROS.
+Go through the [ROS Installation](ROS.md) doc to install ROS.

@@ -2,15 +2,23 @@
 
 # **VM (Virtual Machine)**
 
+## **Download**
+The VM installation requires following files to be downloaded beforehand: <br>
+1. [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (If you are using windows operation system then download "Windows hosts" package from the website)
+2. [Ubuntu 20.04 LTS Desktop](https://ubuntu.com/download/desktop) 
+> If the download is slow (for Ubuntu 20.04 LTS Desktop) then use one of this Indian server links ([Link1](https://ubuntu-releases.hbcse.tifr.res.in/ubuntu-releases/focal/ubuntu-20.04.2.0-desktop-amd64.iso), [Link2](https://mirrors.piconets.webwerks.in/ubuntu-mirror/ubuntu-releases/20.04/ubuntu-20.04.2.0-desktop-amd64.iso), [Link3](http://ubuntu-releases.mirrors.estointernet.in/focal/ubuntu-20.04.2.0-desktop-amd64.iso)) to download it.
+
+## **Install**
+
 ## **Step 1: Install VirtualBox**
 
-Go to the [VirtualBox Website](https://www.virtualbox.org/wiki/Downloads) and download it. (i.e. if you are using windows operation system then download "Windows hosts" package from the website)
+> **If you haven't downloaded VirtualBox mentioned 1st in the Download section**: Go to the [VirtualBox Website](https://www.virtualbox.org/wiki/Downloads) and download it. (If you are using windows operation system then download "Windows hosts" package from the website)
 
-After downloading, double click to install it.
+After downloading the VirtualBox mentioned 1st in the **Download** section, double click to install it.
 
 ## **Step 2: Download Ubuntu Desktop file**
 
-Download the .iso file of "Ubuntu 20.04 LTS" from [Ubuntu Desktop](https://ubuntu.com/download/desktop). 
+> **If you haven't downloaded Ubuntu 20.04 LTS Desktop file mentioned 2nd in the Download section**: Download the .iso file of "Ubuntu 20.04 LTS" from [Ubuntu Desktop](https://ubuntu.com/download/desktop). 
 > If the download is slow then use one of this Indian server links ([Link1](https://ubuntu-releases.hbcse.tifr.res.in/ubuntu-releases/focal/ubuntu-20.04.2.0-desktop-amd64.iso), [Link2](https://mirrors.piconets.webwerks.in/ubuntu-mirror/ubuntu-releases/20.04/ubuntu-20.04.2.0-desktop-amd64.iso), [Link3](http://ubuntu-releases.mirrors.estointernet.in/focal/ubuntu-20.04.2.0-desktop-amd64.iso)) to download it.
 
 ## **Step 3: Create a new Virtual Environment**
@@ -63,4 +71,4 @@ After it gets started, you will be asked to either "Test Ubuntu" or "Install Ubu
 
 Now, we are ready to install ROS.
 
-Go through the [ROS Installation](https://github.com/GauravViramgami/ROS-Workshop-TL/blob/main/docs/ROS.md) doc to install ROS.
+Go through the [ROS Installation](ROS.md) doc to install ROS.

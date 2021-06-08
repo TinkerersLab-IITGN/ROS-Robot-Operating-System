@@ -81,4 +81,4 @@ You can install 3rd party drivers like NVIDIA drivers by following instructions 
 
 Now, we are ready to install ROS.
 
-Go through the [ROS Installation](https://github.com/GauravViramgami/ROS-Workshop-TL/blob/main/docs/ROS.md) doc to install ROS.
+Go through the [ROS Installation](ROS.md) doc to install ROS.

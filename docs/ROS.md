@@ -1,7 +1,6 @@
 ![image](../images/TL_Header.png)
 
 # **ROS Installation**
-(The complete documentation for ROS installation is also given here: [ROS](http://wiki.ros.org/noetic/Installation/Ubuntu))
 
 Open the command line interface of the Linux distribution you installed. (i.e Linux Terminal)
 
@@ -89,4 +88,8 @@ sudo rosdep init
 rosdep update
 ```
 
+(The complete documentation for ROS installation is also given here: [ROS](http://wiki.ros.org/noetic/Installation/Ubuntu))
+
 **Congratulations! You have successfully installed and set up ROS.** 
+
+Now, you can start with the [first tutorial](../tutorials/create_a_ros_workspace.md).
