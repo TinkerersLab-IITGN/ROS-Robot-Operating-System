@@ -77,7 +77,13 @@ When you click “finish” you will be able to see the VcXsrv icon down in the 
 
 Now, we need to set the `DISPLAY` environment variable that tells WSL 2 where to send the graphics for any application that needs a display to function. For this, you will need to know the IP address for the Windows host machine. You can find this by going to `Settings -> Network & Internet` and looking under the properties of your current connection (it will be labeled as “IPv4 Address”). 
 
-After getting the IP address open the Linux distribution that you installed (Search "Ubuntu 20.04 LTS" in Start Menu and click on it). Then run this command and replace {your_ip_address} with your IP address:
+ If you are still not sure which IPv4 address to use then run following code in your Ubuntu terminal:
+```
+ifconfig
+```
+If you are running the code for first time then you will be prompted to install net-tools package. Install it and then run the code again. The inet address for **eth0** is the IP address you require.
+
+After getting the IP address open the Linux distribution that you installed (Search "Ubuntu 20.04 LTS" in Start Menu and click on it). Then run this command and replace {your_ip_address} with your IP address.  **Don't include curly braces {} in your IP address in the following code:**
 
 ```
 echo 'export DISPLAY={your_ip_address}:0.0' >> ~/.bashrc
@@ -99,6 +105,11 @@ sudo apt update
 ```
 sudo apt install x11-apps
 ```
+After installation is complete, to check whether your installation was a success, run the following code:
+```
+xcalc
+```
+A calculator should pop-up. If not then go through the step 6 once again.
 
 (The complete documentation for WSL installation is also given here: [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10))
 
