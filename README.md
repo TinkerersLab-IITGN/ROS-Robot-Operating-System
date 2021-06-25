@@ -7,3 +7,4 @@ Go through the following doc for installation and set up: [Installation Guidelin
 
 ## **Tutoials**
 1) [Create a ROS Catkin Workspace](tutorials/create_a_ros_workspace.md)
+2) [Create a new ROS Project](tutorials/create_new_package.md)
