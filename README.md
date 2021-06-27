@@ -7,4 +7,5 @@ Go through the following doc for installation and set up: [Installation Guidelin
 
 ## **Tutoials**
 1) [Create a ROS Catkin Workspace](tutorials/create_a_ros_workspace.md)
-2) [Create a new ROS Project](tutorials/create_new_package.md)
+2) [Playing with Turtlesim to Understand ROS Topics](tutorials/rostopic_turtle_sim.md)
+3) [Create a new ROS Project](tutorials/create_new_package.md)
