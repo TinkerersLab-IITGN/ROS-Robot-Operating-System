@@ -60,4 +60,4 @@ $ rostopic pub /turtle1/cmd_vel geometry_msgs/Twist  -r 1 '[1.0, 0.0, 0.0]' '[0.
 ```
 The additional argument `-r 1` keeps publishing the same message on `/turtle1/cmd_vel/` at a rate of 1 Hz. You can stop it by pressing `Ctrl`+C.
 
-This is the end of this tutorial. Next you can try creating a publisher program in Python3.
+This is the end of this tutorial. Next you can try [creating a ROS package](tutorials/create_new_package.md) and in it create a publisher program in Python3.
