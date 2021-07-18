@@ -10,4 +10,4 @@ Go through the following doc for installation and set up: [Installation Guidelin
 2) [Playing with Turtlesim to Understand ROS Topics](tutorials/rostopic_turtle_sim.md)
 3) [Create a new ROS Project](tutorials/create_new_package.md)
 4) [Create Publisher Node using Python](tutorials/create_publisher_node_python.md)
-5) [ROS Topic Turtlebot Simulation](tutorials/rostopic_turtle_sim.md)
+5) [Task 1 Solution](tutorials/task_1_solution)
